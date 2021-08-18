@@ -1,0 +1,33 @@
+Import java.util.Scanner;
+class cab
+{
+int fare;
+int d;
+Public Cab ()
+{
+fare=50;
+}
+pubilc cab (int amt)
+{
+fare=amt;
+}
+public cab (cab ob){
+fare=ob.fare;
+}
+}
+if (cd>5){
+cab ob=new cab (50+10*(cd-5))
+System.out.println ("Enter the distance travelled:")
+ob.d=sc.nextInt ();
+ob.fare+=10*ob.d;
+System.out.println("Total fare:Rs"+ob.fare);
+}
+}
+else {
+System.out.println ("Enter the distance travelled:")
+ob.d=sc.nextInt ();
+ob.fare+=10*ob.d;
+System.out.println("Total fare:Rs"+ob.fare);
+cab ob=new cab ();
+}
+}
